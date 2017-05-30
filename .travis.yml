@@ -1,5 +1,6 @@
 language: bash
 before_install:
+  - sudo apt-get update
   - sudo apt-get install python3.5
 script:
   - echo "test 1"
