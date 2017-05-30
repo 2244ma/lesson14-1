@@ -1,3 +1,6 @@
-language: generic
+language: bash
+before_install:
+  - sudo apt-get install python3.5
 script:
+  - echo "test 1"
   - bash -e ./test_same.sh
